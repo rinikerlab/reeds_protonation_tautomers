@@ -26,4 +26,3 @@ according to the first letter of the .py script. Certain options (i.e. simulatio
 the ene_ana.md++.lib file tells gromos++ how the output files of the gromos simulations are formatted. Here, we provide the files we had used but
 warn any potential user that using a different version of GROMOS to run the simulations might require changes in the ene_ana.md++.lib file for consistency
 to make sure the correct fields are parsed when doing the analysis. 
-
