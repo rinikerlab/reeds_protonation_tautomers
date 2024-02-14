@@ -23,6 +23,8 @@ example:
 Each of the steps of the RE-EDS pipeline may then be performed one after the other, starting with energy minimization, and continuing alphabetically
 according to the first letter of the .py script. Certain options (i.e. simulation length, how to submit it to cluster, etc. can be directly changed in the scripts)
 
+![plot](./pipeline_protonation.png)
+
 the ene_ana.md++.lib file tells gromos++ how the output files of the gromos simulations are formatted. Here, we provide the files we had used but
 warn any potential user that using a different version of GROMOS to run the simulations might require changes in the ene_ana.md++.lib file for consistency
 to make sure the correct fields are parsed when doing the analysis. 
