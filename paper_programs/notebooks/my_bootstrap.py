@@ -4,12 +4,15 @@ import matplotlib.pyplot as plt
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 import scipy
 
-
 from scipy.stats import pearsonr
 from scipy.stats import kendalltau
 from scipy.stats import spearmanr
 
 from scipy.stats import bootstrap
+
+#
+# Note: Code is based on work from Marcus Wieder: 
+# https://github.com/wiederm/endstate_corrections_data/blob/main/notebooks/generate_plots.ipynb
 
 def get_rel_ddGs(dgs):
     """
