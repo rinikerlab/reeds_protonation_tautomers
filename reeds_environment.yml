@@ -11,5 +11,7 @@ dependencies:
   - numpy
   - scipy
   - scikit-learn
+  - nb_conda_kernels
+  - ipykernel
   - pip:
     - d3blocks
