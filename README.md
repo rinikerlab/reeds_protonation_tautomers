@@ -13,7 +13,7 @@ The jupyter notebooks to reproduce the figures in the manuscript can be found in
 The analysis scripts are all written in Python. A conda environment file is provided with `reeds_environment.yml`. To install the environment, run the following command in the terminal:
 
 ```bash
-mamba env create -f environment.yml
+mamba env create -f reeds_environment.yml
 ```
 
 Additionally, the code relies on a few functions from the ''reeds pipeline'' which can be downloaded from:
