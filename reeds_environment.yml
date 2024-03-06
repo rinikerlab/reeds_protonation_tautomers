@@ -13,5 +13,6 @@ dependencies:
   - scikit-learn
   - nb_conda_kernels
   - ipykernel
+  - pymbar
   - pip:
     - d3blocks
