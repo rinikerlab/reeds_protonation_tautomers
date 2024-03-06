@@ -11,5 +11,5 @@ dependencies:
   - numpy
   - scipy
   - scikit-learn
-- pip:
-  - d3blocks
+  - pip:
+    - d3blocks
