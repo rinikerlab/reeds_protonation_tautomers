@@ -11,8 +11,12 @@ from scipy.stats import spearmanr
 from scipy.stats import bootstrap
 
 #
-# Note: Code is based on work from Marcus Wieder: 
+# Note: Code is based on work from Marcus Wieder and his group: 
 # https://github.com/wiederm/endstate_corrections_data/blob/main/notebooks/generate_plots.ipynb
+
+# This performs a bootstrap of the different metrics we use for comparison (MUE, RMSE, Kerndall Tau and Spearman Rho)
+# by adding noise to the data based on the standard errors over the five random repeats.  
+#
 
 def get_rel_ddGs(dgs):
     """
