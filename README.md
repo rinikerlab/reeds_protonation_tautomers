@@ -2,7 +2,7 @@
 
 ## Description
 
-This directory contains the analysis scripts and data (e.g. to reproduce figures) for the preprint [ADD LINK TO PREPRINT]
+This directory contains the analysis scripts and data (e.g. to reproduce figures) for the preprint (https://chemrxiv.org/engage/chemrxiv/article-details/66017e439138d231614043a6)
 
 Input files to reproduce the RE-EDS simulations shown in this work are given in: `input_files`
 
